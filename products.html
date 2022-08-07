@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Apparel For All</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="nav_list"><img class="nav" id="logo" src="afa.png" width="60px" ; alt=""></li>
+        <li class="nav_list"><a class="nav" href="index.html">Home</a></li>
+        <li class="nav_list"><a class="nav" href="products.html">Men</a></li>
+        <li class="nav_list"><a class="nav" href="products.html">Women</a></li>
+        <li class="nav_list"><a class="nav" href="products.html">Kids</a></li>
+        <li class="nav_list"><a class="nav" href="products.html">Top Wear</a></li>
+        <li class="nav_list"><a class="nav" href="products.html">Bottom Wear</a></li>
+        <li class="nav_list"><a class="nav" href="blogs.html">Blogs</a></li>
+        <li class="nav_list"><a class="nav" href="stats.html">Stats</a></li>
+        <li class="nav_list"><a class="nav" href="devTeam.html">Dev Team</a></li>
+        <input class="search" type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search for clothes.." title="Type any product">
+
+        <ul id="UL">
+          <li class="searchlist"><a class="slist" href="products.html">Men</a></li>
+          <li class="searchlist"><a class="slist" href="products.html">Women</a></li>
+          <li class="searchlist"><a class="slist" href="products.html">Kids</a></li>
+          <li class="searchlist"><a class="slist" href="products.html">Top Wear</a></li>
+          <li class="searchlist"><a class="slist" href="products.html">Bottom Wear</a></li>
+          <li class="searchlist"><a class="slist" href="blogs.html">Blogs</a></li>
+          <li class="searchlist"><a class="slist" href="devTeam.html">Dev Team</a></li>
+          <li class="searchlist"><a class="slist" href="stats.html">Stats</a></li>
+        </ul>
+
+
+      </ul>
+    </nav>
+  </header>
+
+  <div class="prod">
+    <img class="prod_image" src="prod1.webp" alt="" width="200px">
+    <p class="describe_prod">
+      <b style="font-size: 20px;">Description</b><br><br>
+      <b>Material & Care:</b>
+      100% Cotton
+      Machine Wash <br>
+      <b>Country of Origin:</b> India (and proud) <br>
+      <b>Manufactured & Sold By:</b>
+      The ApparelForAll Store Pvt. Ltd.
+      224, Tantia Jogani Industrial Premises
+      J.R. Boricha Marg
+      Lower Parel (E)
+      Mumbai - 11
+    </p>
+    <p class="price_prod">Price <br><br><b>₹500</b></p>
+    <div class="button">
+      <button class="butt" type="button" name="button" onclick="inc()">+</button>
+      <p class="butt_p" id="quantity">0</p>
+      <button class="butt" type="button" name="button" onclick="dec()">-</button>
+    </div>
+
+    <div class="total_price">
+      <p class="tp_1">Total price</p><br>
+      <b>₹<p class="tp_1" id="total_price">0</p></b>
+    </div>
+  </div>
+
+  <div class="prod">
+    <img class="prod_image" src="prod2.webp" alt="" width="200px">
+    <p class="describe_prod">
+      <b style="font-size: 20px;">Description</b><br><br>
+      <b>Material & Care:</b>
+      100% Cotton
+      Machine Wash <br>
+      <b>Country of Origin:</b> India (and proud) <br>
+      <b>Manufactured & Sold By:</b>
+      The ApparelForAll Store Pvt. Ltd.
+      224, Tantia Jogani Industrial Premises
+      J.R. Boricha Marg
+      Lower Parel (E)
+      Mumbai - 11
+    </p>
+    <p class="price_prod">Price <br><br><b>₹800</b></p>
+    <div class="button">
+      <button class="butt" type="button" name="button" onclick="inc2()">+</button>
+      <p class="butt_p" id="quantity2">0</p>
+      <button class="butt" type="button" name="button" onclick="dec2()">-</button>
+    </div>
+
+    <div class="total_price">
+      <p class="tp_1">Total price</p><br>
+      <b>₹<p class="tp_1" id="total_price2">0</p></b>
+    </div>
+  </div>
+
+  <div class="prod">
+    <img class="prod_image" src="prod3.webp" alt="" width="200px">
+    <p class="describe_prod">
+      <b style="font-size: 20px;">Description</b><br><br>
+      <b>Material & Care:</b>
+      80% Cotton 20% Polyester
+      Premium Heavy Gauge Fabric<br>
+      <b>Country of Origin:</b> India (and proud) <br>
+      <b>Manufactured & Sold By:</b>
+      The ApparelForAll Store Pvt. Ltd.
+      224, Tantia Jogani Industrial Premises
+      J.R. Boricha Marg
+      Lower Parel (E)
+      Mumbai - 11
+    </p>
+    <p class="price_prod">Price <br><br><b>₹900</b></p>
+    <div class="button">
+      <button class="butt" type="button" name="button" onclick="inc3()">+</button>
+      <p class="butt_p" id="quantity3">0</p>
+      <button class="butt" type="button" name="button" onclick="dec3()">-</button>
+    </div>
+
+    <div class="total_price">
+      <p class="tp_1">Total price</p><br>
+      <b>₹<p class="tp_1" id="total_price3">0</p></b>
+    </div>
+  </div>
+
+  <div class="prod">
+    <img class="prod_image" src="prod4.webp" alt="" width="200px">
+    <p class="describe_prod">
+      <b style="font-size: 20px;">Description</b><br><br>
+      <b>Material & Care:</b>
+      80% Cotton 20% Polyester
+      Premium Heavy Gauge Fabric<br>
+      <b>Country of Origin:</b> India (and proud) <br>
+      <b>Manufactured & Sold By:</b>
+      The ApparelForAll Store Pvt. Ltd.
+      224, Tantia Jogani Industrial Premises
+      J.R. Boricha Marg
+      Lower Parel (E)
+      Mumbai - 11
+    </p>
+    <p class="price_prod">Price <br><br><b>₹750</b></p>
+    <div class="button">
+      <button class="butt" type="button" name="button" onclick="inc4()">+</button>
+      <p class="butt_p" id="quantity4">0</p>
+      <button class="butt" type="button" name="button" onclick="dec4()">-</button>
+    </div>
+
+    <div class="total_price">
+      <p class="tp_1">Total price</p><br>
+      <b>₹<p class="tp_1" id="total_price4">0</p></b>
+    </div>
+  </div>
+
+  <div class="total_amount">
+    <h3 class="finalh">Total Amount</h3>
+    <b>₹<p class="finalp" id="tot_amount">0</p></b>
+    <a href="file:///D:/Sutej/Web%20Dev/Payment%20System/index.html"><button class="finalb" type="button" name="button">Buy Now</button></a>
+  </div>
+
+  <div class="icon">
+    <div class="icons">
+      <p class="follow">Follow us:</p>
+      <a class="sm" href="https://www.facebook.com/" target="_blank">
+        <img src="fb.png" alt="facebook" width="36px"></a>
+      <a class="sm" href="https://www.instagram.com/?hl=en" target="_blank">
+        <img src="insta.png" alt="instagram" width="45px"></a>
+      <a class="sm" href="https://twitter.com/" target="_blank">
+        <img src="tw.png" alt="twitter" width="37px"></a>
+      <a class="sm" href="https://www.youtube.com/" target="_blank">
+        <img src="youtube.png" alt="youtube" width="50px"></a>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+
+    var qty = 0;
+    var total = 0;
+    var price = 500;
+
+    function inc() {
+      q = document.getElementById('quantity');
+      tp = document.getElementById('total_price');
+      qty = qty + 1;
+      if (qty > 0) {
+        q.innerHTML = qty;
+        total = qty * price;
+        tp.innerHTML = total;
+        total_amount();
+      } else {
+        qty = 0;
+        q.innerHTML = 0;
+        tp.innerHTML = 0;
+      }
+    }
+
+    function dec() {
+      q = document.getElementById('quantity');
+      tp = document.getElementById('total_price');
+      if (qty > 0) {
+        qty = qty - 1;
+        q.innerHTML = qty;
+        total = qty * price;
+        tp.innerHTML = total;
+        total_amount();
+      } else {
+        qty = 0;
+        q.innerHTML = 0;
+        tp.innerHTML = 0;
+      }
+    }
+
+    var qty2 = 0;
+    var total2 = 0;
+    var price2 = 800;
+
+    function inc2() {
+      q2 = document.getElementById('quantity2');
+      tp2 = document.getElementById('total_price2');
+      qty2 = qty2 + 1;
+      if (qty2 > 0) {
+        q2.innerHTML = qty2;
+        total2 = qty2 * price2;
+        tp2.innerHTML = total2;
+        total_amount();
+      } else {
+        qty2 = 0;
+        q2.innerHTML = 0;
+        tp2.innerHTML = 0;
+      }
+    }
+
+    function dec2() {
+      q2 = document.getElementById('quantity2');
+      tp2 = document.getElementById('total_price2');
+      if (qty2 > 0) {
+        qty2 = qty2 - 1;
+        q2.innerHTML = qty2;
+        total2 = qty2 * price2;
+        tp2.innerHTML = total2;
+        total_amount();
+      } else {
+        qty2 = 0;
+        q2.innerHTML = 0;
+        tp2.innerHTML = 0;
+      }
+    }
+
+
+    var qty3 = 0;
+    var total3 = 0;
+    var price3 = 900;
+
+    function inc3() {
+      q3 = document.getElementById('quantity3');
+      tp3 = document.getElementById('total_price3');
+      qty3 = qty3 + 1;
+      if (qty3 > 0) {
+        q3.innerHTML = qty3;
+        total3 = qty3 * price3;
+        tp3.innerHTML = total3;
+        total_amount();
+      } else {
+        qty3 = 0;
+        q3.innerHTML = 0;
+        tp3.innerHTML = 0;
+      }
+    }
+
+    function dec3() {
+      q3 = document.getElementById('quantity3');
+      tp3 = document.getElementById('total_price3');
+      if (qty3 > 0) {
+        qty3 = qty3 - 1;
+        q3.innerHTML = qty3;
+        total3 = qty3 * price3;
+        tp3.innerHTML = total3;
+        total_amount();
+      } else {
+        qty3 = 0;
+        q3.innerHTML = 0;
+        tp3.innerHTML = 0;
+      }
+    }
+
+    var qty4 = 0;
+    var total4 = 0;
+    var price4 = 750;
+
+    function inc4() {
+      q4 = document.getElementById('quantity4');
+      tp4 = document.getElementById('total_price4');
+      qty4 = qty4 + 1;
+      if (qty4 > 0) {
+        q4.innerHTML = qty4;
+        total4 = qty4 * price4;
+        tp4.innerHTML = total4;
+        total_amount();
+      } else {
+        qty4 = 0;
+        q4.innerHTML = 0;
+        tp4.innerHTML = 0;
+      }
+    }
+
+    function dec4() {
+      q4 = document.getElementById('quantity4');
+      tp4 = document.getElementById('total_price4');
+      if (qty4 > 0) {
+        qty4 = qty4 - 1;
+        q4.innerHTML = qty4;
+        total4 = qty4 * price4;
+        tp4.innerHTML = total4;
+        total_amount();
+      } else {
+        qty4 = 0;
+        q4.innerHTML = 0;
+        tp4.innerHTML = 0;
+      }
+    }
+
+    function total_amount() {
+      final_amount = document.getElementById('tot_amount');
+      var tot = total4 + total3 + total2 + total;
+      final_amount.innerHTML = tot;
+    }
+  </script>
+</body>
+
+</html>

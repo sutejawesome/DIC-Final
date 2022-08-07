@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initital scale=1.0" >
+    <script src="https://kit.fontawesome.com/49824b7ba5.js" crossorigin="anonymous"></script>
+    <title>Checkout</title>
+    <style media="screen">
+      form{
+        background-color: #DDDDDD;
+        margin-left: 100px;
+        margin-right: 350px;
+        margin-top: 2px;
+        padding: 5px 20px 15px 20px;
+        border: 1px solid lightgrey;
+        border-radius: 14px;
+      }
+      label{
+        font-size: 18px;
+      }
+      p{
+        font-size: 40px;
+        text-align: center;
+        background-color: grey;
+        color: azure;
+        height: 50px;
+      }
+      h1{
+        font-size: 40px;
+        margin-left: 100px;
+      }
+      h2{
+        font-style: normal;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>Payment Gateway</p>
+    <h1>Checkout</h1>
+    <form class="" action="index.html" method="post">
+    <h2>Billing Adress:</h2>
+    <label for="Fname">&#128100; Full Name: </label>
+    <input type="text" name="Fname" value="" placeholder="John Brown"><br><br>
+    <label for="Email"><i class="fa fa-envelope"></i> Email: </label>
+    <input type="email" name="" value="" placeholder="abc@example.com"><br><br>
+    <label for="Country"><i class="fas fa-flag"></i> Country: </label>
+    <input type="text" name="Country" value="" placeholder="India"><br><br>
+    <label for="State/Union Territory"><i class="fas fa-city"></i> State/Union Territory: </label>
+
+    <select class="States/UT" name="">
+      <option value="" disabled="">Please select...</option><option value="AN">Andaman and Nicobar Islands</option><option value="AP">Andhra Pradesh</option><option value="AR">Arunachal Pradesh</option><option value="AS">Assam</option><option value="BR">Bihar</option><option value="CH">Chandigarh</option>
+      <option value="CT">Chhattisgarh</option><option value="DN">Dadra and Nagar Haveli</option><option value="DD">Daman and Diu</option><option value="DL">Delhi</option><option value="GA">Goa</option><option value="GJ">Gujarat</option><option value="HR">Haryana</option><option value="HP">Himachal Pradesh
+      </option><option value="JK">Jammu and Kashmir</option><option value="JH">Jharkhand</option><option value="KA">Karnataka</option><option value="KL">Kerala</option><option value="LA">Ladakh</option><option value="LD">Lakshadweep</option><option value="MP">Madhya Pradesh</option>
+      <option value="MH">Maharashtra</option><option value="MN">Manipur</option><option value="ML">Meghalaya</option><option value="MZ">Mizoram</option><option value="NL">Nagaland</option><option value="OR">Odisha</option><option value="PY">Puducherry</option>
+      <option value="PB">Punjab</option><option value="RJ">Rajasthan</option><option value="SK">Sikkim</option><option value="TN">Tamil Nadu</option><option value="TG">Telangana</option><option value="TR">Tripura</option><option value="UP">Uttar Pradesh</option>
+      <option value="UT">Uttarakhand</option><option value="WB">West Bengal</option>
+      </select>
+      <br><br>
+    <label for="Adress"><i class="fas fa-address-card"></i> Adress: </label><br>
+    <textarea name="Adress" rows="1" cols="48" placeholder="123, xyz street"></textarea><br><br>
+    <label for="zip">Zip Code: </label>
+    <input type="number" name="zip" value="" placeholder="101010"><br>
+    <hr size=2 noshade>
+    <h2>Make Payment with: </h2>
+    <label for="Credit Card">1)<i class="fab fa-cc-visa"></i> <i class="fab fa-cc-mastercard"></i> <i class="fab fa-cc-amex"></i> <a href="Credit_Card.html"> <img src="r.jpg" width=27px alt=""> Credit or Debit Card</label></a><br><br>
+    <label for="UPI">2)<img src="upi.png" width=36px alt=""><a href="UPI.html"> Pay With UPI</label></a><br><br>
+    <label for="Paytm">3)<img src="Paytm.png" width=45px alt=""><a href="Paytm.html"> Pay with Paytm</label></a><br>
+  </form>
+  </body>
+</html>
