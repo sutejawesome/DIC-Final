@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Credit Card</title>
+    <style media="screen">
+
+      label{
+        font-size: 18px;
+      }
+      .container{
+        background-color: #DDDDDD;
+        margin-left: 100px;
+        margin-top: 25px;
+        margin-right: 400px;
+        padding: 5px 20px 20px 30px;
+        border: 1px solid lightgrey;
+        border-radius: 14px;
+      }
+
+      h1{
+        font-size: 40px;
+        color: black;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>&emsp;&emsp;&nbsp; Credit or Debit Card</h1>
+    <div class="container">
+      <h2>Accepted Cards: </h2>
+      <img src="mastercard.jpg" width=107px alt="">
+      <img src="visa.png" width=98px alt="">
+      <img src="r.jpg" width=110px alt="">
+      <img src="a.png" width=72px alt="">
+      <br><br>
+    <form class="Credit Card" action="index.html" method="post">
+      <label for="Credit Card">Name on card: </label>
+      <input type="text" name="Credit Card" value="" placeholder="John Brown" size="25px"><br><br>
+      <label for="Credit Card">Card Number: </label>
+      <input type="number" name="Credit Card" value="" placeholder="1111-2222-3333-4444" size="25px"><br><br>
+      <label for="month">Expiry Date: </label>
+      <input type="month" name="month" value="">
+      <br><br>
+      <label for="Security Code">Security Code(CVV): </label>
+      <input type="number" name="CVV" minlength="3" maxlength="4" value="" placeholder="123"><br><br>
+      <input type="checkbox" name="" value="">
+      <label for="">Remember this card</label><br><br>
+
+
+    <h2>Order Summary</h2>
+    <label for="">Amount to pay(inr): </label>
+    <input type="number" name="" value="" placeholder="2000"><br><br>
+    <input type="submit" name="" value="Complete Payment">
+    </form>
+    </div>
+  </body>
+</html>
